@@ -1,0 +1,33 @@
+name: whatsapp_clone
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.6.0 #Recursos Básicos
+  firebase_auth: ^3.1.0 #Autenticação
+  firebase_storage: ^10.0.3 #Armazenamento de Arquivos
+  cloud_firestore: ^2.5.1 #Banco de Dados
+  image_picker: ^0.8.4 #Selecionar Imagens
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - imagens/logo.png
+    - imagens/usuario.png
+    - imagens/bg.png
+
+  
